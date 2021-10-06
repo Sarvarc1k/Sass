@@ -1,0 +1,45 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+
+ul, ol{
+    list-style: none;
+}
+
+.nav-list{
+    display: flex;
+    .nav-item{
+        display: block;
+        padding: 10px;
+        .nav_link{
+            display: block;
+        }
+    }
+}
+
+.box{
+    border:{
+        radius: 10px ;
+        style:solid;
+    }
+
+    background:{
+        position: center;
+        size: cover;
+    } 
+    &-item {
+        display: block;
+    }
+}
+
+$size: 10px;
+
+.box1{
+    padding: $size;
+}
+

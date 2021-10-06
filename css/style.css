@@ -1,0 +1,56 @@
+*, *::before, *::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+.nav-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nav-list .nav-item {
+  display: block;
+  padding: 10px;
+}
+
+.nav-list .nav-item .nav_link {
+  display: block;
+}
+
+.box {
+  border-radius: 10px;
+  border-style: solid;
+  background-position: center;
+  background-size: cover;
+}
+
+.box-item {
+  display: block;
+}
+
+.box1 {
+  padding: 10px;
+}
+
+.button {
+  color: white;
+  background-color: black;
+  padding: 15px;
+}
+
+.button-dark {
+  color: green;
+  background-color: black;
+  padding: 15px;
+}
+/*# sourceMappingURL=style.css.map */
